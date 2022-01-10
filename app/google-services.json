@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "505655732499",
+    "firebase_url": "https://messengerapp-47f0d.firebaseio.com",
+    "project_id": "messengerapp-47f0d",
+    "storage_bucket": "messengerapp-47f0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505655732499:android:3ecfafb56323f1dbe112e6",
+        "android_client_info": {
+          "package_name": "com.hosam.messengerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505655732499-jkvbh0bqfq1hdeiaubqapm3sgisacp55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5kCiPIhTOB96eLBftn1Qeh6LtmNGmofA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505655732499-jkvbh0bqfq1hdeiaubqapm3sgisacp55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

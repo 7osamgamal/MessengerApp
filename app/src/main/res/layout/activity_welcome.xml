@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".WelcomeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="325dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="216dp"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="#000"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/register_welcome_btn"
+            android:layout_width="325dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="48dp"
+            android:text="Register"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:background="#44498B"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/login_welcome_btn"
+            android:layout_width="325dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="36dp"
+            android:background="#44498B"
+            android:text="Login"
+            android:textColor="#000"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_welcome_btn" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
